@@ -7,6 +7,91 @@
 </head>
 <body>
     <h2>Registrate aqui</h2>
+ 
+<!-- Header -->
+<header>
+    <nav>
+        <ul>
+            <li>
+                <a href="../index.html">Inicio</a>
+            </li>
+            <li>
+                <a href="#">Productos</a>
+            </li>
+            <li>
+                <a href="#">Carrito</a>
+            </li>
+            <li>
+                <a href="#">LogIn</a>
+            </li>
+        </ul>
+    </nav>
+ </header>
+
+<!--Contenido principal (main)-->
+<hr>
+<main>
+    <!--Aqui va el form-->
+    <h2>Sign up</h2>
+    <form>
+        <div>
+            <label for="fname">First name</label>
+            <br>
+            <input type="text" name="fname" id="fname" placeholder="First name">
+        </div>
+        <br>
+        <div>
+            <label for="inputemail">Email</label>
+            <br>
+            <input type="email" name="email" id="inputemail" placeholder="user@correo.com">
+        </div>
+        <br>
+        <div>
+            <label for="cName">Country name</label>
+            <br>    
+            <select name="cName" id="cName">
+                <option value="mx">México</option>
+                <option value="col">Colombia</option>
+                <option value="arg">Argentina</option>
+                <option value="per">Perú</option>
+                <option value="chi">Chile</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <p>Gender</p>
+            <input type="radio" name="gender" id="male" value="male">
+            <label for="male">Male</label>
+            <br>
+            <input type="radio" name="gender" id="female" value="female">
+            <label for="female">Female</label>
+            <br>
+            <input type="radio" name="gender" id="other" value="other">
+            <label for="other">Other</label>
+        </div>
+        <br>
+        <div>
+            <input type="checkbox" name="legalPolicy" id="legalPolicy" value="true">
+            <label for="legalPolicy">Aceptar términos y condiciones</label>
+        </div>
+        <div>
+            <input type="checkbox" name="recibircorreos" id="recibircorreos" value="true">
+            <label for="recibircorreos">Acepto recibir correos</label>
+        </div>
+        <br>
+        <div>
+            <!--<input type="submit" value="Sign Up"> -->
+            <button type="submit">Sign Up</button>
+        </div>
+    </form>
+
+</main>
+<hr>
+<!--Pie de pagina-->
+<footer>
+    <h5>Todos los derechos reservados "Centro de Anime"</h5>
+</footer>
+
     <a href="../index.html">⬅️Ve al inicio</a>
 </body>
 </html>
